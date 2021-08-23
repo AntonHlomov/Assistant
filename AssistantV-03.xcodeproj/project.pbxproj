@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A01649026CDCE0200520E32 /* AddExpensesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A01648F26CDCE0200520E32 /* AddExpensesController.swift */; };
 		8A12553026017685006FA43E /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A12552F26017685006FA43E /* CalendarCell.swift */; };
 		8A194CF82612929300847F7A /* ScheduleClientsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A194CF72612929300847F7A /* ScheduleClientsViewCell.swift */; };
 		8A194CFB2612993200847F7A /* PriceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A194CFA2612993200847F7A /* PriceTableViewController.swift */; };
 		8A2067CE263A166D0037DD7E /* CustomerRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2067CD263A166D0037DD7E /* CustomerRecord.swift */; };
 		8A25182425E667C60048347F /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A25182325E667C60048347F /* Client.swift */; };
 		8A2967F0263231E500214665 /* HalperCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2967EF263231E100214665 /* HalperCode.swift */; };
+		8A30B9EC26C83492008B5262 /* FinancialCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A30B9EB26C83492008B5262 /* FinancialCalculator.swift */; };
+		8A30B9EF26C93FF6008B5262 /* Costs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A30B9EE26C93FF6008B5262 /* Costs.swift */; };
+		8A30B9F226C94510008B5262 /* CashCosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A30B9F126C94510008B5262 /* CashCosts.swift */; };
+		8A30B9F526C9C407008B5262 /* primerFerstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A30B9F426C9C407008B5262 /* primerFerstPage.swift */; };
+		8A30BA0126C9E933008B5262 /* HeaderExpensesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A30BA0026C9E933008B5262 /* HeaderExpensesController.swift */; };
 		8A4610C8269319E50020508D /* EditClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4610C7269319E50020508D /* EditClientViewController.swift */; };
 		8A698D612604CA3400AD97DA /* ClientPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A698D602604CA3400AD97DA /* ClientPageViewController.swift */; };
 		8A6A81CB25D9715F00C32D8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A6A81CA25D9715F00C32D8F /* GoogleService-Info.plist */; };
@@ -75,18 +81,28 @@
 		8ADF078226BD52CE00257B89 /* CashPrise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF078126BD52CE00257B89 /* CashPrise.swift */; };
 		8ADF078526BDA80F00257B89 /* CashClients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF078426BDA80F00257B89 /* CashClients.swift */; };
 		8AE588AF26C16B3E00A4B173 /* IndicatorChekForPayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE588AE26C16B3E00A4B173 /* IndicatorChekForPayTableViewCell.swift */; };
+		8AE588B426C2A3A000A4B173 /* FerstUserProfHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE588B326C2A3A000A4B173 /* FerstUserProfHeader.swift */; };
+		8AE588B726C2E78A00A4B173 /* SliderClientsForFerstV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE588B626C2E78A00A4B173 /* SliderClientsForFerstV.swift */; };
+		8AE588BD26C3211C00A4B173 /* CellCalendarForFerstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE588BC26C3211C00A4B173 /* CellCalendarForFerstView.swift */; };
+		8AE9134326C7DD28002A8006 /* CellCalendarForDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE9134226C7DD28002A8006 /* CellCalendarForDayView.swift */; };
 		8AFC4FD726A701DB0004E3EA /* CheckClientController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC4FD626A701DB0004E3EA /* CheckClientController.swift */; };
 		8AFC4FDB26AAF1F10004E3EA /* PriceServiesCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC4FDA26AAF1F10004E3EA /* PriceServiesCheck.swift */; };
 		E5936D34EF4B93EB912AEC61 /* Pods_AssistantV_03.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDEBA90CD6B3E5598052063 /* Pods_AssistantV_03.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A01648F26CDCE0200520E32 /* AddExpensesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpensesController.swift; sourceTree = "<group>"; };
 		8A12552F26017685006FA43E /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		8A194CF72612929300847F7A /* ScheduleClientsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleClientsViewCell.swift; sourceTree = "<group>"; };
 		8A194CFA2612993200847F7A /* PriceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTableViewController.swift; sourceTree = "<group>"; };
 		8A2067CD263A166D0037DD7E /* CustomerRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerRecord.swift; sourceTree = "<group>"; };
 		8A25182325E667C60048347F /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		8A2967EF263231E100214665 /* HalperCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalperCode.swift; sourceTree = "<group>"; };
+		8A30B9EB26C83492008B5262 /* FinancialCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialCalculator.swift; sourceTree = "<group>"; };
+		8A30B9EE26C93FF6008B5262 /* Costs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Costs.swift; sourceTree = "<group>"; };
+		8A30B9F126C94510008B5262 /* CashCosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashCosts.swift; sourceTree = "<group>"; };
+		8A30B9F426C9C407008B5262 /* primerFerstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primerFerstPage.swift; sourceTree = "<group>"; };
+		8A30BA0026C9E933008B5262 /* HeaderExpensesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderExpensesController.swift; sourceTree = "<group>"; };
 		8A4610C7269319E50020508D /* EditClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditClientViewController.swift; sourceTree = "<group>"; };
 		8A698D602604CA3400AD97DA /* ClientPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientPageViewController.swift; sourceTree = "<group>"; };
 		8A6A81CA25D9715F00C32D8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -151,6 +167,10 @@
 		8ADF078126BD52CE00257B89 /* CashPrise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashPrise.swift; sourceTree = "<group>"; };
 		8ADF078426BDA80F00257B89 /* CashClients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashClients.swift; sourceTree = "<group>"; };
 		8AE588AE26C16B3E00A4B173 /* IndicatorChekForPayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorChekForPayTableViewCell.swift; sourceTree = "<group>"; };
+		8AE588B326C2A3A000A4B173 /* FerstUserProfHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerstUserProfHeader.swift; sourceTree = "<group>"; };
+		8AE588B626C2E78A00A4B173 /* SliderClientsForFerstV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderClientsForFerstV.swift; sourceTree = "<group>"; };
+		8AE588BC26C3211C00A4B173 /* CellCalendarForFerstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCalendarForFerstView.swift; sourceTree = "<group>"; };
+		8AE9134226C7DD28002A8006 /* CellCalendarForDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCalendarForDayView.swift; sourceTree = "<group>"; };
 		8AFC4FD626A701DB0004E3EA /* CheckClientController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckClientController.swift; sourceTree = "<group>"; };
 		8AFC4FDA26AAF1F10004E3EA /* PriceServiesCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceServiesCheck.swift; sourceTree = "<group>"; };
 		ABDEBA90CD6B3E5598052063 /* Pods_AssistantV_03.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssistantV_03.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -198,19 +218,42 @@
 		8A2C6D942602635F002B152F /* Primeri */ = {
 			isa = PBXGroup;
 			children = (
+				8AA2011625F272FD00D92C2A /* SlaideerColetionVie */,
+				8A12552E26017644006FA43E /* CalendarCell */,
 				8A86D4CC25A4F1AC00B956FF /* HorizontUserScrolController.swift */,
 				8A86D4CB25A4F1AC00B956FF /* CircleCollectionViewCell.swift */,
 				8AA2011B25F2A39F00D92C2A /* ClientSlViewController.swift */,
 				8AA996AF25AE2196009A7946 /* CellTaibelClientCollectionViewCell.swift */,
 				8AA2011725F2736200D92C2A /* AppCell.swift */,
-				8AA2011E25F2A3D400D92C2A /* ClientSlCellViewCell.swift */,
 				8A194CFA2612993200847F7A /* PriceTableViewController.swift */,
 				8AC2AB8B2613DEDF00E371DF /* FooterTableViewCell.swift */,
 				8AA9116C261A42B300A39083 /* ViewControllerPrimer.swift */,
 				8A2967EF263231E100214665 /* HalperCode.swift */,
 				8AFC4FD926AAF1950004E3EA /* delit */,
+				8A30B9F426C9C407008B5262 /* primerFerstPage.swift */,
 			);
 			path = Primeri;
+			sourceTree = "<group>";
+		};
+		8A30B9FB26C9CFB0008B5262 /* HeaderSlaiderCalendarControler */ = {
+			isa = PBXGroup;
+			children = (
+				8AE588B326C2A3A000A4B173 /* FerstUserProfHeader.swift */,
+				8AE588B626C2E78A00A4B173 /* SliderClientsForFerstV.swift */,
+				8AE588BC26C3211C00A4B173 /* CellCalendarForFerstView.swift */,
+				8AE9134226C7DD28002A8006 /* CellCalendarForDayView.swift */,
+			);
+			path = HeaderSlaiderCalendarControler;
+			sourceTree = "<group>";
+		};
+		8A30B9FE26C9E51A008B5262 /* HeaderCellExpensesController */ = {
+			isa = PBXGroup;
+			children = (
+				8A30BA0026C9E933008B5262 /* HeaderExpensesController.swift */,
+				8AA2011E25F2A3D400D92C2A /* ClientSlCellViewCell.swift */,
+				8A01648F26CDCE0200520E32 /* AddExpensesController.swift */,
+			);
+			path = HeaderCellExpensesController;
 			sourceTree = "<group>";
 		};
 		8A698D5F2604C9BA00AD97DA /* ClientPage */ = {
@@ -250,18 +293,18 @@
 			children = (
 				8A2C6D942602635F002B152F /* Primeri */,
 				8AA9116F261A57E800A39083 /* Extension */,
-				8A12552E26017644006FA43E /* CalendarCell */,
-				8AA2011625F272FD00D92C2A /* SlaideerColetionVie */,
 				8AA200F525EC36D800D92C2A /* CustomObjects */,
-				8A698D5F2604C9BA00AD97DA /* ClientPage */,
 				8A81007E262AEFCC0078A0A6 /* PriceList */,
 				8AA9117A261D131F00A39083 /* Table Client */,
 				8A86D4D525A4F1C900B956FF /* Utils */,
 				8A86D4CE25A4F1B600B956FF /* Model */,
+				8A30B9FB26C9CFB0008B5262 /* HeaderSlaiderCalendarControler */,
+				8A30B9FE26C9E51A008B5262 /* HeaderCellExpensesController */,
 				8A86D4CA25A4F1AC00B956FF /* Header */,
+				8A698D5F2604C9BA00AD97DA /* ClientPage */,
 				8A86D4C125A4F19900B956FF /* Controllers */,
-				8A86D4D125A4F1BE00B956FF /* Login */,
 				8A86D4C825A4F1A300B956FF /* First informationUser */,
+				8A86D4D125A4F1BE00B956FF /* Login */,
 				8A742BEB25A4EA200014054E /* AppDelegate.swift */,
 				8A742BED25A4EA200014054E /* SceneDelegate.swift */,
 				8A742BEF25A4EA200014054E /* ViewController.swift */,
@@ -308,8 +351,7 @@
 		8A86D4CA25A4F1AC00B956FF /* Header */ = {
 			isa = PBXGroup;
 			children = (
-				8A86D4CD25A4F1AC00B956FF /* UserProfileHeader.swift */,
-				8AA2010625EFA8AD00D92C2A /* StartWockFerstHeaderViewCell.swift */,
+				8AE588B926C2E79200A4B173 /* ProfileHeader */,
 			);
 			path = Header;
 			sourceTree = "<group>";
@@ -318,11 +360,11 @@
 			isa = PBXGroup;
 			children = (
 				8A86D4CF25A4F1B600B956FF /* User.swift */,
-				8A86D4D025A4F1B600B956FF /* Firebase.swift */,
 				8A25182325E667C60048347F /* Client.swift */,
 				8A810076262737FA0078A0A6 /* TransactionUser.swift */,
 				8A81007B2629EC840078A0A6 /* Price.swift */,
 				8A2067CD263A166D0037DD7E /* CustomerRecord.swift */,
+				8A30B9EE26C93FF6008B5262 /* Costs.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -339,13 +381,10 @@
 		8A86D4D525A4F1C900B956FF /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				8A86D4D625A4F1C900B956FF /* CustomTextField.swift */,
-				8A86D4D725A4F1C900B956FF /* Utils.swift */,
-				8A86D4D825A4F1C900B956FF /* Extention.swift */,
-				8AA2011325F16D7F00D92C2A /* DataExtension.swift */,
-				8AAF25F42608CA6B005BB8F4 /* CustomBt.swift */,
 				8ADF078126BD52CE00257B89 /* CashPrise.swift */,
 				8ADF078426BDA80F00257B89 /* CashClients.swift */,
+				8A30B9F126C94510008B5262 /* CashCosts.swift */,
+				8A30B9EB26C83492008B5262 /* FinancialCalculator.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -431,8 +470,14 @@
 		8AA9116F261A57E800A39083 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				8A86D4D025A4F1B600B956FF /* Firebase.swift */,
+				8A86D4D625A4F1C900B956FF /* CustomTextField.swift */,
+				8A86D4D725A4F1C900B956FF /* Utils.swift */,
 				8AA91170261A580800A39083 /* addTapGestureToHideKeyboard.swift */,
 				8A7CD4AA26A6364800DB29B5 /* ArrayUnic.swift */,
+				8A86D4D825A4F1C900B956FF /* Extention.swift */,
+				8AA2011325F16D7F00D92C2A /* DataExtension.swift */,
+				8AAF25F42608CA6B005BB8F4 /* CustomBt.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -472,6 +517,15 @@
 				8ADF077E26BC8A4E00257B89 /* CellShowAllRecorderDayClientTableView.swift */,
 			);
 			path = ShowAllRecorderDay;
+			sourceTree = "<group>";
+		};
+		8AE588B926C2E79200A4B173 /* ProfileHeader */ = {
+			isa = PBXGroup;
+			children = (
+				8AA2010625EFA8AD00D92C2A /* StartWockFerstHeaderViewCell.swift */,
+				8A86D4CD25A4F1AC00B956FF /* UserProfileHeader.swift */,
+			);
+			path = ProfileHeader;
 			sourceTree = "<group>";
 		};
 		8AFC4FD926AAF1950004E3EA /* delit */ = {
@@ -620,9 +674,14 @@
 				8A86D4DC25A4F1C900B956FF /* StartWorckController.swift in Sources */,
 				8A742BF025A4EA200014054E /* ViewController.swift in Sources */,
 				8A86D4E725A4F1C900B956FF /* MainTabVC.swift in Sources */,
+				8A30B9F526C9C407008B5262 /* primerFerstPage.swift in Sources */,
+				8A01649026CDCE0200520E32 /* AddExpensesController.swift in Sources */,
+				8A30B9EC26C83492008B5262 /* FinancialCalculator.swift in Sources */,
+				8A30BA0126C9E933008B5262 /* HeaderExpensesController.swift in Sources */,
 				8A86D4E325A4F1C900B956FF /* User.swift in Sources */,
 				8A810084262AF0640078A0A6 /* PriceAdServies.swift in Sources */,
 				8AA200F025EC177600D92C2A /* TableNewClientController.swift in Sources */,
+				8AE9134326C7DD28002A8006 /* CellCalendarForDayView.swift in Sources */,
 				8A194CFB2612993200847F7A /* PriceTableViewController.swift in Sources */,
 				8A926BAD25A64A180029837D /* UserSlaiderCollectionViewCell.swift in Sources */,
 				8AA200F325EC17CB00D92C2A /* TableNewClientCell.swift in Sources */,
@@ -632,6 +691,7 @@
 				8AA91171261A580900A39083 /* addTapGestureToHideKeyboard.swift in Sources */,
 				8AA9115F2619F0AE00A39083 /* ControlerAverageCheck.swift in Sources */,
 				8A86D4E625A4F1C900B956FF /* SignUpController.swift in Sources */,
+				8AE588BD26C3211C00A4B173 /* CellCalendarForFerstView.swift in Sources */,
 				8A25182425E667C60048347F /* Client.swift in Sources */,
 				8A810077262737FA0078A0A6 /* TransactionUser.swift in Sources */,
 				8A742BEC25A4EA200014054E /* AppDelegate.swift in Sources */,
@@ -641,10 +701,13 @@
 				8AAF25F52608CA6B005BB8F4 /* CustomBt.swift in Sources */,
 				8A2067CE263A166D0037DD7E /* CustomerRecord.swift in Sources */,
 				8A86D4DD25A4F1C900B956FF /* SchoolController.swift in Sources */,
+				8A30B9F226C94510008B5262 /* CashCosts.swift in Sources */,
 				8AE588AF26C16B3E00A4B173 /* IndicatorChekForPayTableViewCell.swift in Sources */,
 				8AFC4FDB26AAF1F10004E3EA /* PriceServiesCheck.swift in Sources */,
+				8AE588B726C2E78A00A4B173 /* SliderClientsForFerstV.swift in Sources */,
 				8AC2AB8F2614A27800E371DF /* CalendarAdViewController.swift in Sources */,
 				8AA2011C25F2A39F00D92C2A /* ClientSlViewController.swift in Sources */,
+				8A30B9EF26C93FF6008B5262 /* Costs.swift in Sources */,
 				8AA2010A25F02A6700D92C2A /* Start.swift in Sources */,
 				8AA2010D25F121DC00D92C2A /* PayClient.swift in Sources */,
 				8AFC4FD726A701DB0004E3EA /* CheckClientController.swift in Sources */,
@@ -660,6 +723,7 @@
 				8A742BEE25A4EA200014054E /* SceneDelegate.swift in Sources */,
 				8ADF077726BC89B300257B89 /* ShowAllRecorderDayClientViewController.swift in Sources */,
 				8AA200FB25EC373200D92C2A /* CustomUIimageView.swift in Sources */,
+				8AE588B426C2A3A000A4B173 /* FerstUserProfHeader.swift in Sources */,
 				8AA911592619F06C00A39083 /* ControllerPrice.swift in Sources */,
 				8ADF078526BDA80F00257B89 /* CashClients.swift in Sources */,
 				8AA91175261D0A2100A39083 /* AverageCheeckTableViewCell.swift in Sources */,
