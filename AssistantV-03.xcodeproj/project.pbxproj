@@ -74,6 +74,10 @@
 		8AA996B025AE2197009A7946 /* CellTaibelClientCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA996AF25AE2196009A7946 /* CellTaibelClientCollectionViewCell.swift */; };
 		8AAF25F52608CA6B005BB8F4 /* CustomBt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF25F42608CA6B005BB8F4 /* CustomBt.swift */; };
 		8AB8C2C0260B6E6200CC419B /* PriceEnClientPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8C2BF260B6E6200CC419B /* PriceEnClientPageTableViewCell.swift */; };
+		8AC0275026D3D0EB008356FE /* CellHeaderSlaider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC0274F26D3D0EB008356FE /* CellHeaderSlaider.swift */; };
+		8AC0275426D3D112008356FE /* CellTableStartWorck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC0275326D3D112008356FE /* CellTableStartWorck.swift */; };
+		8AC0275726D442A3008356FE /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC0275626D442A3008356FE /* Team.swift */; };
+		8AC0275A26D46E9E008356FE /* TodayCustomerRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC0275926D46E9E008356FE /* TodayCustomerRecord.swift */; };
 		8AC2AB8C2613DEDF00E371DF /* FooterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC2AB8B2613DEDF00E371DF /* FooterTableViewCell.swift */; };
 		8AC2AB8F2614A27800E371DF /* CalendarAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC2AB8E2614A27800E371DF /* CalendarAdViewController.swift */; };
 		8ADF077726BC89B300257B89 /* ShowAllRecorderDayClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF077626BC89B300257B89 /* ShowAllRecorderDayClientViewController.swift */; };
@@ -160,6 +164,10 @@
 		8AA996AF25AE2196009A7946 /* CellTaibelClientCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTaibelClientCollectionViewCell.swift; sourceTree = "<group>"; };
 		8AAF25F42608CA6B005BB8F4 /* CustomBt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBt.swift; sourceTree = "<group>"; };
 		8AB8C2BF260B6E6200CC419B /* PriceEnClientPageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceEnClientPageTableViewCell.swift; sourceTree = "<group>"; };
+		8AC0274F26D3D0EB008356FE /* CellHeaderSlaider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellHeaderSlaider.swift; sourceTree = "<group>"; };
+		8AC0275326D3D112008356FE /* CellTableStartWorck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableStartWorck.swift; sourceTree = "<group>"; };
+		8AC0275626D442A3008356FE /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		8AC0275926D46E9E008356FE /* TodayCustomerRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCustomerRecord.swift; sourceTree = "<group>"; };
 		8AC2AB8B2613DEDF00E371DF /* FooterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterTableViewCell.swift; sourceTree = "<group>"; };
 		8AC2AB8E2614A27800E371DF /* CalendarAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarAdViewController.swift; sourceTree = "<group>"; };
 		8ADF077626BC89B300257B89 /* ShowAllRecorderDayClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAllRecorderDayClientViewController.swift; sourceTree = "<group>"; };
@@ -300,6 +308,7 @@
 				8A86D4CE25A4F1B600B956FF /* Model */,
 				8A30B9FB26C9CFB0008B5262 /* HeaderSlaiderCalendarControler */,
 				8A30B9FE26C9E51A008B5262 /* HeaderCellExpensesController */,
+				8AC0274E26D3D058008356FE /* HeaderSlaiderCellStartWorck */,
 				8A86D4CA25A4F1AC00B956FF /* Header */,
 				8A698D5F2604C9BA00AD97DA /* ClientPage */,
 				8A86D4C125A4F19900B956FF /* Controllers */,
@@ -365,6 +374,7 @@
 				8A81007B2629EC840078A0A6 /* Price.swift */,
 				8A2067CD263A166D0037DD7E /* CustomerRecord.swift */,
 				8A30B9EE26C93FF6008B5262 /* Costs.swift */,
+				8AC0275626D442A3008356FE /* Team.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -385,6 +395,7 @@
 				8ADF078426BDA80F00257B89 /* CashClients.swift */,
 				8A30B9F126C94510008B5262 /* CashCosts.swift */,
 				8A30B9EB26C83492008B5262 /* FinancialCalculator.swift */,
+				8AC0275926D46E9E008356FE /* TodayCustomerRecord.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -499,6 +510,15 @@
 				8AE588AE26C16B3E00A4B173 /* IndicatorChekForPayTableViewCell.swift */,
 			);
 			path = PayClient;
+			sourceTree = "<group>";
+		};
+		8AC0274E26D3D058008356FE /* HeaderSlaiderCellStartWorck */ = {
+			isa = PBXGroup;
+			children = (
+				8AC0274F26D3D0EB008356FE /* CellHeaderSlaider.swift */,
+				8AC0275326D3D112008356FE /* CellTableStartWorck.swift */,
+			);
+			path = HeaderSlaiderCellStartWorck;
 			sourceTree = "<group>";
 		};
 		8AC966D225B23C4500A6DBC5 /* Client Save */ = {
@@ -686,6 +706,7 @@
 				8A926BAD25A64A180029837D /* UserSlaiderCollectionViewCell.swift in Sources */,
 				8AA200F325EC17CB00D92C2A /* TableNewClientCell.swift in Sources */,
 				8AA2010725EFA8AD00D92C2A /* StartWockFerstHeaderViewCell.swift in Sources */,
+				8AC0275426D3D112008356FE /* CellTableStartWorck.swift in Sources */,
 				8A86D4DA25A4F1C900B956FF /* StatistikController.swift in Sources */,
 				8AA2011825F2736200D92C2A /* AppCell.swift in Sources */,
 				8AA91171261A580900A39083 /* addTapGestureToHideKeyboard.swift in Sources */,
@@ -706,9 +727,11 @@
 				8AFC4FDB26AAF1F10004E3EA /* PriceServiesCheck.swift in Sources */,
 				8AE588B726C2E78A00A4B173 /* SliderClientsForFerstV.swift in Sources */,
 				8AC2AB8F2614A27800E371DF /* CalendarAdViewController.swift in Sources */,
+				8AC0275726D442A3008356FE /* Team.swift in Sources */,
 				8AA2011C25F2A39F00D92C2A /* ClientSlViewController.swift in Sources */,
 				8A30B9EF26C93FF6008B5262 /* Costs.swift in Sources */,
 				8AA2010A25F02A6700D92C2A /* Start.swift in Sources */,
+				8AC0275A26D46E9E008356FE /* TodayCustomerRecord.swift in Sources */,
 				8AA2010D25F121DC00D92C2A /* PayClient.swift in Sources */,
 				8AFC4FD726A701DB0004E3EA /* CheckClientController.swift in Sources */,
 				8A86D4DE25A4F1C900B956FF /* CalendarController.swift in Sources */,
@@ -720,6 +743,7 @@
 				8A12553026017685006FA43E /* CalendarCell.swift in Sources */,
 				8A86D4E525A4F1C900B956FF /* LoginController.swift in Sources */,
 				8A86D4DF25A4F1C900B956FF /* WorkingDaysController.swift in Sources */,
+				8AC0275026D3D0EB008356FE /* CellHeaderSlaider.swift in Sources */,
 				8A742BEE25A4EA200014054E /* SceneDelegate.swift in Sources */,
 				8ADF077726BC89B300257B89 /* ShowAllRecorderDayClientViewController.swift in Sources */,
 				8AA200FB25EC373200D92C2A /* CustomUIimageView.swift in Sources */,
